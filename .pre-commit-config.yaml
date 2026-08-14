@@ -1,14 +1,14 @@
 repos:
   - repo: local
-    hooks:
+    hooks:  # Corrigido de "hools" para "hooks"
       - id: pylint
         name: pylint
         entry: pylint
         language: system
         types: [python]
         args: [
-          "-rn", # Only display messages
-          "-sn", # Don't display the score
-          "--rcfile=.pylintrc", # Link to your config file
-          "--load-plugins=pylint.extensions.docparams", # Load an extension
+          "-rn",
+          "-sn",
+          "--rcfile=.pylintrc",
+          "--load-plugins=pylint.extensions.docparams",
         ]
