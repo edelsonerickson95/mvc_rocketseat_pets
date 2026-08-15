@@ -1,2 +1,0 @@
-def minhaFuncao():
-    print("oi")
