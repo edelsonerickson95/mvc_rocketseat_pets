@@ -34,4 +34,3 @@ def test_create_error():
     controller = PersonCreatorController(MockPeopleRepository())
     with pytest.raises(Exception):
         controller.create(person_infor)
-
