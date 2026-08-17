@@ -33,6 +33,7 @@ def test_insert_person():
     repo.insert_person(first_name, last_name, age, pet_id)
 
 
+@pytest.mark.skip(reason="interacao com banco")
 def test_get_person():
     person_id = 1
     repo = PeopleRepository(db_connection_handler)
