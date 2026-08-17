@@ -1,5 +1,5 @@
 from src.models.sqlite.interfaces.people_repository import PeopeRepositoryInterface
-from src.models.sqlite.entities.people import PeopleTable
+from src.models.sqlite.entities.people import PeopleTable,
 
 
 class PersonFinderController:
