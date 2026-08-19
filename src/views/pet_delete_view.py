@@ -12,4 +12,4 @@ class PetDeleterView(ViewInterface):
         name = http_request.param["name"]
         self.__controller.delete(name)
 
-        return HttpResponse(satus_code=201)
+        return HttpResponse(satus_code=204)
